@@ -1,5 +1,5 @@
 # Portofolio
-Demo website : [Click Here](aliftriadi.netlify.app)
+Demo website : [Click Here](https://aliftriadi.netlify.app)
 
 ## How To Install
 ``` 
@@ -8,5 +8,5 @@ $ npm install
 $ npm run serve
 ```
 
-Website design by [ahmadsaugi.com](ahmadsaugi.com)
-Redesign and edited by [@aliftrd](github.com/aliftrd)
+Website design by [ahmadsaugi.com](https://ahmadsaugi.com)
+Redesign and edited by [@aliftrd](https://github.com/aliftrd)
