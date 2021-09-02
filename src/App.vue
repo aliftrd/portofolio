@@ -1,26 +1,53 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar />
+    <Particles id="tsparticles" :particlesInit="particlesInit" :particlesLoaded="particlesLoaded" :options="{
+        fpsLimit: 60,
+        particles: {
+            color: {
+                value: ['#f67e7d', '#843b62', '#621940']
+            },
+            links: {
+                color: '#ffb997',
+                enable: true
+            },
+            move: {
+                enable: true,
+                speed: .5
+            },
+            size: {
+                value: 5,
+                random: {
+                    enable: true,
+                    minimumValue: 1
+                },
+                animation: {
+                    enable: true,
+                    speed: 2.5,
+                    minimumValue: 1
+                }
+            },
+            opacity: {
+                value: 0.8,
+                random: {
+                    enable: true,
+                    minimumValue: 0.4
+                }
+            }
+        }
+    }" />
+    <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    import Navbar from "@/components/Navbar.vue"
+    export default {
+        name: 'App',
+        components: {
+            Navbar
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    @import './assets/css/app.css';
 </style>

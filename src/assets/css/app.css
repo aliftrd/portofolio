@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#app {
+    font-family: 'Poppins', sans-serif;
+}
+
+#tsparticles {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: #323a46;
+    font-size: 28px;
+}
+
+.nav-link:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    transition: width .3s;
+}
+
+.nav-link:hover {
+    color: #323a46;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.home {
+    margin-top: 8rem !important;
+}
+
+.image img {
+    filter: drop-shadow(0 10px 30px #ccc);
+    width: 16rem;
+    border-radius: 100%
+}
+
+.title {
+    display: block;
+    font-weight: 700;
+    font-size: 100px;
+    color: #35495e;
+    letter-spacing: 1px;
+}
+
+.my-text {
+    font-size: 1.5rem;
+}
+
+span.text-green {
+    color: #6b6fff;
+}
+
+.socmed {
+    margin-top: .8rem;
+    margin-right: .8rem;
+    -webkit-transition: 0.3s transform ease-out;
+    transition: 0.3s transform ease-out;
+}
+
+.socmed:hover {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.social-image {
+    width: 2rem;
+}
+
+.box-shadow {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25);
+}
