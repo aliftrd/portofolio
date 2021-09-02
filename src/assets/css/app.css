@@ -76,6 +76,12 @@ span.text-green {
     color: #6b6fff;
 }
 
+.sub-title {
+    font-size: 2.4rem;
+    color: #35495e;
+    font-weight: 700;
+}
+
 .socmed {
     margin-top: .8rem;
     margin-right: .8rem;
