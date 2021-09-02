@@ -3,8 +3,10 @@ import {
     createWebHistory
 } from 'vue-router'
 import Home from "@/views/Home.vue"
-import Skills from "@/views/Skills.vue"
 import Achievements from "@/views/Achievements.vue"
+import Projects from "@/views/Projects.vue"
+import Skills from "@/views/Skills.vue"
+import Contact from "@/views/Contact.vue"
 
 const router = createRouter({
     history: createWebHistory(),
@@ -19,7 +21,7 @@ const router = createRouter({
     }, {
         path: '/projects',
         name: 'projects',
-        component: Achievements
+        component: Projects
     }, {
         path: '/skills',
         name: 'skills',
@@ -27,7 +29,7 @@ const router = createRouter({
     }, {
         path: '/contact',
         name: 'contact',
-        component: Achievements
+        component: Contact
     }, ]
 })
 
