@@ -8,7 +8,7 @@
                         <ul class="p-3">
                             <li v-for="contact in contacts" :key="contact.index" class="achievements">
                                 <img :src="require('@/assets/images/' + contact.icon)" alt="Trophy">
-                                <h5><a href="{{contact.link}}"> {{contact.link}}</a></h5>
+                                <h5><a :href="contact.link"> {{contact.link}}</a></h5>
                             </li>
                         </ul>
                     </div>
