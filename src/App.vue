@@ -50,4 +50,5 @@
 
 <style>
     @import './assets/css/app.css';
+    @import 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css';
 </style>

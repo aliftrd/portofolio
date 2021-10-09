@@ -1,0 +1,13 @@
+[{
+    "icon": "devicon-laravel-plain",
+    "title": "Laravel",
+    "learned": "2 years"
+}, {
+    "icon": "devicon-nodejs-plain-wordmark",
+    "title": "NodeJS",
+    "learned": "1 years"
+}, {
+    "icon": "devicon-php-plain",
+    "title": "PHP",
+    "learned": "3 years"
+}]

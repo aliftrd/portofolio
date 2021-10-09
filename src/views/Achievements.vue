@@ -5,7 +5,7 @@
             <div class="col-md">
                 <div class="card box-shadow mt-3">
                     <div class="card-body">
-                        <ul class="p-3">
+                        <ul class="p-1">
                             <li v-for="achievement in achievements" :key="achievement.message" class="achievements">
                                 <img :src="require('@/assets/images/trophy.svg')" alt="Trophy">
                                 <h5>{{achievement.message}}</h5>

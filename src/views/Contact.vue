@@ -5,7 +5,7 @@
             <div class="col-md">
                 <div class="card box-shadow mt-3">
                     <div class="card-body">
-                        <ul class="p-3">
+                        <ul class="pl-1">
                             <li v-for="contact in contacts" :key="contact.index" class="achievements">
                                 <img :src="require('@/assets/images/' + contact.icon)" alt="Trophy">
                                 <h5><a :href="contact.link"> {{contact.link}}</a></h5>

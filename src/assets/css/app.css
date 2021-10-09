@@ -138,3 +138,19 @@ span.text-green {
 .card-body ul li.achievements h5 a:hover {
     color: #6559ca;
 }
+
+.card-body .text-icon {
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 375px) {
+    .card-body ul li.achievements img {
+        width: 1rem;
+    }
+
+    .card-body ul li.achievements h5 {
+        padding-top: .6rem;
+        padding-left: .8rem;
+        font-size: 1rem;
+    }
+}
